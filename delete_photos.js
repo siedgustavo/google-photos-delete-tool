@@ -36,12 +36,12 @@ let deleteTask = setInterval(() => {
     } while (checkboxes.length <= 0 && attemptCount++ < MAX_RETRIES);
 
 
-    if (checkboxes.length <= 0) {
-        console.log("[INFO] No more images to delete.");
-        clearInterval(deleteTask);
-        console.log("[SUCCESS] Tool exited.");
-        return;
-    }
+//    if (checkboxes.length <= 0) {
+//        console.log("[INFO] No more images to delete.");
+//        clearInterval(deleteTask);
+//        console.log("[SUCCESS] Tool exited.");
+//        return;
+//    }
 
     imageCount += checkboxes.length;
 
